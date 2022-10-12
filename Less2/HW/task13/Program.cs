@@ -7,11 +7,14 @@ if (n > 100 && n < 999)
 {
 Console.Write(Metod(n));
 }
-else
+if (n<100)
 {
-Console.Write("Вы ввели не трехзначное число"); 
-};
-
+Console.Write("Отсутствует треья цифра");     
+}
+if (n>999)
+{
+Console.Write("Вы ввели не трехзначное число");     
+}
 int Metod(int a)
 {
     
