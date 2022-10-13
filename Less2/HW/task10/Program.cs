@@ -12,9 +12,9 @@ else
 Console.Write("Вы ввели не трехзначное число"); 
 };
 
-int Metod(int a)
+int Metod(int n)
 {
     
-    int result = ((a / 10) % 10);
+    int result = ((n / 10) % 10);
     return result;
 }
