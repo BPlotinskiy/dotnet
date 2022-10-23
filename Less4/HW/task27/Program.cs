@@ -17,3 +17,14 @@ int sum = 0;
    Console.WriteLine(sum);
 }
 sum(n);
+
+int[] array = new int[8];
+static void massivarray( int [] array)
+{
+for(int i = 0; i < array.Length; i++)
+{
+ Console.WriteLine(string.Format("Введите {0}й элемент массива:",i+1));
+array[i] = Convert.ToInt32(Console.ReadLine());
+}
+}
+massivarray(array);
