@@ -14,4 +14,3 @@ array[i] = Convert.ToInt32(Console.ReadLine());
 }
 massivarray(array);
 Console.WriteLine(String.Join(", ", array));
-
